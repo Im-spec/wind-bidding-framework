@@ -130,9 +130,6 @@ The available stage names are `preprocess`, `forecast`, `errors`, `fit`, `scenar
 
 The calculation environment is Python 3.11.14 with NumPy 2.4.3, pandas 3.0.2, SciPy 1.17.1, scikit-learn 1.8.0, PyArrow 23.0.1, tqdm 4.67.3, and IBM ILOG CPLEX 22.1.2.0. No GPU acceleration is used. A valid CPLEX installation and license are required.
 
-## Input data
-
-Input data are not bundled with this code-only repository. The required filenames and placement rules are listed in `01_입력데이터/README.md`.
 
 ## Scope
 
