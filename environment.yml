@@ -1,0 +1,15 @@
+name: wind-s5000-opt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.14
+  - numpy=2.4.3
+  - pandas=3.0.2
+  - scipy=1.17.1
+  - scikit-learn=1.8.0
+  - pyarrow=23.0.1
+  - matplotlib=3.10.8
+  - tqdm=4.67.3
+  - pip
+  - pip:
+      - cplex==22.1.2.0
