@@ -2,7 +2,6 @@
 
 This repository contains a HistGradientBoostingRegressor-only variant of the full experimental pipeline. All five point-forecast targets use the same model family. Smoke tests, diagnostics, failed branches, result-verification programs, and table/figure producers are excluded.
 
-This is an experimental variant, not the byte-exact paper configuration. The paper configuration selects LinearRegression for DA and RT energy prices, whereas this variant uses HistGradientBoostingRegressor for those targets as well. Consequently, DA/RT errors, fitted distributions, scenarios, and optimization outputs can differ from the published results.
 
 ## Process order
 
